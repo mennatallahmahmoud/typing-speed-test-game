@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Tahoma;
+}
+
+@media (max-width: 991px) {
+    .main-container {
+        padding: 0 20px;
+    }
+    .container {
+        max-width: 350px;
+    }
+    .instructions {
+        max-width: 350px;
+    }
+}
+
+.name {
+    background-color: #009688;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.game {
+    height: calc(100vh - 410px);
+}
+.container {
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+}
+.msg {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.msg .lvls{
+    color: #009688;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+.msg .seconds{
+    color: #009688;
+    font-weight: bold;
+}
+.start-game {
+    background-color: darkslategray;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    width: 70%;
+    transition: 0.3s;
+}
+.start-game:hover {
+    background-color: rgb(30, 49, 49);
+}
+.word {
+    color: #009688;
+    font-size: 50px;
+    font-weight: bold;
+}
+.input {
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    caret-color: #009688;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px auto;
+}
+.up-coming {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+.up-coming > div {
+    background-color: #009688;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 4px;
+}
+.control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin: 20px auto 0;
+}
+.control span {
+    color: #009688;
+    font-weight: bold;
+}
+.finish {
+    padding: 20px 0 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.finish .win {
+    color: #FF9800;
+}
+.finish .lose {
+    color: red;
+}
+.finish .start-again {
+    background-color: darkslategray;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    width: 70%;
+    transition: 0.3s;
+}
+
+.finish .start-again:hover {
+    background-color: rgb(30, 49, 49);
+}
+.instructions {
+    margin: 30px auto;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+.instructions h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #009688;
+    margin-bottom: 8px;
+}
+.instructions p {
+    font-size: 12px;
+}
